@@ -16,6 +16,10 @@ Proyecto: sistema de riego y control de huertas.
 
 Breve descripción:
 El proyecto consiste de un modulo IoT que sensará la información de humedad ambiente y del sustrato de una huerta. Enviará esa información a un Backend para su centralización y posterior disponilización en un Fronent. En las vistas se podrá configurar rangos de aceptación de humedad, para que el sistema manipule de forma automatica una válvula que accionará la apertura o cierre de una maneguera de riego. Se espera que el proyecto genere monitoreo y cuidado (tanto manual como automático) de los cultivos en una huerta.
+
+Diagrama alto nivel del sistema:
+<img width="1009" alt="diagBloques" src="https://github.com/gussiciliano/ceiot_base/assets/19696200/54820961-9655-4f05-96ea-aa4f9ba0d2f6">
+
 #
 ## Resolución
 
