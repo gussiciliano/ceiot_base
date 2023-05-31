@@ -63,7 +63,7 @@ Pasos:
 ### 4. Exploit.
 > Descripción: El o los recursos iniciales del ataque logran entrar en la organización de forma controlada (sin ser detectados como una potencial amenaza).
 
-Uso de "Account Discovery" [T1087](https://attack.mitre.org/techniques/T1087/).
+Uso de "Exploitation for Credential Access" [T1212](https://attack.mitre.org/techniques/T1212/).
 
 Pasos:
   - Los mensajes del software de replicación son aceptados y se con la infiltración se obtienen las credenciales de los dispositivos, del server y las URLs de obtención de datos de los sensores.
