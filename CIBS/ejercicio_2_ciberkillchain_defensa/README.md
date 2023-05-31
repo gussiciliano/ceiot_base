@@ -38,15 +38,18 @@ La primer opción se descarta rápidamente porque se cuenta con una buena covert
 A pesar de que no se sabe realmente si se tiene un ataque, ni de que tipo es, se comienza a analizar las vulnerabilidades del sistema IoT, para esto se pone foco en la capa de trasferencia de información para ver que el trafico de datos del sistema sea el correcto. Cuando se encuentra que hay mediciones que vienen de fuentes que no son dispositivos del sistema, y que dispositivos bajo observación no mandan los datos correctos, se analiza esa capa.
 
 ### 6. Command & Control y 5. Installation.
-Uso de M1043 Credential Access Protection
+> Uso de M1043 Credential Access Protection
+
 Para evitar que al sistema lleguen mensajes de agentes externos se agregan credenciales.
 De esta forma se regulariza la información que llega al sistema
 
 ### 4. Exploit.
-Uso de M1036	Account Use Policies
+> Uso de M1036 Account Use Policies
+
 Para evitar el acceso indevido a credenciales se mejoras las politicas de guardado de passwords y de accesos por parte de los dispositivos.
 Además se cambia la arquitectura para, en conjunto con las credenciales, se canalice la información un Broker MQTT que use certificados.
 
 ### 3. Delivery, 2. Weaponization y 1. Reconnaissance.
-Uso de M1047	Audit
+> Uso de M1047 Audit
+
 Para evitar futuros ataques se implementan diferentes auditorias sobre el sistema y sobre su documentación pública para prevenir de otras vulnerabilidades.
